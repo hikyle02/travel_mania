@@ -1,4 +1,8 @@
 import sys
+sys.modules["chromadb"] = None  # 강제로 chromadb 무시
+
+
+import sys
 # import pysqlite3
 # sys.modules["sqlite3"] = pysqlite3
 
